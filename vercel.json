@@ -1,10 +1,10 @@
 
+
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "https://t.me/jennifazendeiraofc_bot",
-      "permanent": false
+      "source": "/(.*)",
+      "destination": "/api/redirect"
     }
   ]
 }
